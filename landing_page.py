@@ -8,7 +8,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="collapsed",
 )
-
+#PRUEBA
 # --- Auth bootstrap (con fallback si falta el módulo) ---
 try:
     from auth_manager import AuthManager  # debe existir en /Files
