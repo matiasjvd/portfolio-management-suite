@@ -40,13 +40,13 @@ def show_dashboard():
                     unsafe_allow_html=True)
 
     with c3:
-        st.markdown(card("Black-Litterman", "Advanced portfolio optimization"), unsafe_allow_html=True)
-        st.markdown(link("Open Black-Litterman", "https://black-litterman-app.streamlit.app/"),
+        st.markdown(card("Optimization Model", "Advanced portfolio optimization"), unsafe_allow_html=True)
+        st.markdown(link("Open Optimization Model", "https://black-litterman-app.streamlit.app/"),
                     unsafe_allow_html=True)
 
     with c4:
-        st.markdown(card("Portfolio Analysis", "Detailed portfolio analysis"), unsafe_allow_html=True)
-        st.markdown(link("Open Portfolio Analysis", "https://portfolio-analysis-bvc.streamlit.app/"),
+        st.markdown(card("Client Portfolio Analysis", "Detailed client portfolio analysis"), unsafe_allow_html=True)
+        st.markdown(link("Open Client Portfolio", "https://portfolio-analysis-bvc.streamlit.app/"),
                     unsafe_allow_html=True)
 
 def card(title: str, desc: str) -> str:
