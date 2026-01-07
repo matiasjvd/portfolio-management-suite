@@ -31,7 +31,7 @@ def show_dashboard():
     with c1:
         st.markdown(card("Funds Ranking", "Analysis and ranking of investment funds"), unsafe_allow_html=True)
         st.markdown(link("Open Funds Ranking",
-                         "https://matiasjvd-ranking-fondos-funds-dashboard-oll7la.streamlit.app/"),
+                         "https://fund-analysis-dashboard.streamlit.app/"),
                     unsafe_allow_html=True)
 
     with c2:
