@@ -41,7 +41,7 @@ def show_dashboard():
 
     with c3:
         st.markdown(card("Optimization Model", "Advanced portfolio optimization"), unsafe_allow_html=True)
-        st.markdown(link("Open Optimization Model", "https://black-litterman-app.streamlit.app/"),
+        st.markdown(link("Open Optimization Model", "https://black-litterman.streamlit.app/"),
                     unsafe_allow_html=True)
 
     with c4:
